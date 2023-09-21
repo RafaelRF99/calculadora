@@ -92,3 +92,38 @@
     font-size: 4rem;
   }
 }
+
+@media (max-width: 430px) {
+  .container {
+    width: 300px;
+
+    h1 {
+      height: 60px;
+      font-size: 3rem;
+    }
+
+    .valores {
+      align-items: center;
+
+      .numeros {
+        justify-content: center;
+      }
+
+      .extra {
+        justify-content: center;
+      }
+    }
+
+    .content {
+      button {
+        width: 60px;
+        height: 60px;
+        font-size: 1.7rem;
+      }
+    }
+
+    .resultado {
+      height: 60px;
+    }
+  }
+}
